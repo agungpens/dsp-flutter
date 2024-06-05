@@ -11,8 +11,8 @@ class SocketTestSenderController extends GetxController {
   late IO.Socket socket;
 
   String socketUrl() {
-    return 'http://192.168.18.38:1234'; // Ganti dengan URL server Anda
-    // return 'https://socket.io.test.hello-ivy.id:1234'; // Ganti dengan URL server Anda
+    return 'http://34.125.194.3:1234'; // Ganti dengan URL server Anda
+    // return 'http://192.168.1.2:1234'; // Ganti dengan URL server Anda
   }
 
   var url =
