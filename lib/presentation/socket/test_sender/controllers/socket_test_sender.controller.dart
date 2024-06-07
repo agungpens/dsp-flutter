@@ -11,8 +11,8 @@ class SocketTestSenderController extends GetxController {
   late IO.Socket socket;
 
   String socketUrl() {
-    return 'http://34.125.194.3:1234'; // Ganti dengan URL server Anda
-    // return 'http://192.168.1.2:1234'; // Ganti dengan URL server Anda
+    // return 'http://34.125.194.3:1234'; // Ganti dengan URL server Anda
+    return 'https://ctrl-outlets-gym-flashers.trycloudflare.com/'; // Ganti dengan URL server ngrok
   }
 
   var url =
