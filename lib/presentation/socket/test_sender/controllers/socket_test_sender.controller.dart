@@ -12,7 +12,7 @@ class SocketTestSenderController extends GetxController {
 
   String socketUrl() {
     // return 'http://34.125.194.3:1234'; // Ganti dengan URL server Anda
-    return 'https://ctrl-outlets-gym-flashers.trycloudflare.com/'; // Ganti dengan URL server ngrok
+    return 'http://34.143.219.34:3000/'; // Ganti dengan URL server ngrok
   }
 
   var url =
